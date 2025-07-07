@@ -30,10 +30,10 @@ Webhook enable executing trades across exchanges through simple HTTP POST reques
 
 
 ## Limits
-|Account type | Limits |
-|--|--|
-|Free account | 20 requests a day |
-|PRO account | 2000 requests a day|
+|Account type | Number of webhooks | Daily limits |
+|--|--|--|
+|**Free account** | 1 | 20 requests a day
+|**PRO account** | 15 |  200 requests a day
 
 
 
@@ -159,20 +159,20 @@ git clone https://github.com/username/webhook-examples.git
 
 The repository includes example implementations in the following programming languages:
 
-|     | Name |
-| -------- | ------- |
-| ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  | Python    |
-| ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) | C#     |
-| ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)    | PHP    |
-| ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)    | JavaScript    |
-| ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)    | NodeJS    |
-| ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)    | Go    |
-| ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)    | Java    |
-| ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)    | Kotlin    |
-| ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)    | Ruby    |
-| ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)    | Rust    |
-| ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)    | Swift    |
-| ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)    | TypeScript    |
+|     | Name | Folder |
+| -------- | ------- | ------- |
+| ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  | Python    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/python)
+| ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) | C#     | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/c)
+| ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)    | PHP    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/php)
+| ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)    | JavaScript    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/javascript)
+| ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)    | NodeJS    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/ndoejs)
+| ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)    | Go    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/go)
+| ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)    | Java    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/java)
+| ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)    | Kotlin    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/kotlin)
+| ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)    | Ruby    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/ruby)
+| ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)    | Rust    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/rust)
+| ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)    | Swift    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/swift)
+| ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)    | TypeScript    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/typescript)
 
 
 
