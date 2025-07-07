@@ -34,8 +34,8 @@ Webhook enable executing trades across exchanges through simple HTTP POST reques
 ## Limits
 |Account type | Number of webhooks | Daily limits |
 |--|--|--|
-|**Free account** | 1 | 20 requests a day
-|**PRO account** | 15 |  200 requests a day
+|**Free account** | 1 | 20 requests
+|**PRO account** | 15 |  200 requests
 
 
 
