@@ -34,8 +34,8 @@ Webhook enable executing trades across exchanges through simple HTTP POST reques
 ## Limits
 |Account type | Number of webhooks | Daily limits |
 |--|--|--|
-|**Free account** | 1 | 20 requests
-|**PRO account** | 15 |  200 requests
+|**Free account** | 1 | 10 requests
+|**PRO account** | 15 |  100 requests
 
 
 
@@ -69,7 +69,7 @@ Request data
 | Name | Type | Description |
 | -------- | ------- | ------- |
 | `code`| *string* |  unique authentication code required to validate the webhook request, ensuring secure access to the API. |
-| `action` | *string* | Specifies the trading action to be performed.Allowed Values: "BUY", "SELL", "SET"
+| `action` | *string* | Specifies the trading action to be performed. Allowed Values: `BUY`, `SELL`, `SET`
 | `quantity` | *float* | Defines the amount of the asset to trade
 | `symbol` | *string* | Identifies the trading pair or asset for the order. The symbol must match a valid trading pair supported by the exchange
 
@@ -94,7 +94,10 @@ A successful webhook request returns a JSON response with the following structur
         "quantity": "1",
         "symbol": "BTCUSDC"
     },
-    "status": "success"
+    "status": "success",
+    "response": {
+        ... Exchange response
+    }
 }
 
 ```
@@ -108,6 +111,7 @@ A successful webhook request returns a JSON response with the following structur
 `limit` | Object containing account tier, daily request limit, and current usage.
 `message` | A brief description of the request outcome.
 `request` | Echoes the submitted request data for verification.
+`response` |The results of exchange operation. This could include confirmation of a trade order, its ID, execution status, or other data.
 `status` | Indicates the outcome of the request, e.g., "success" or "error".
 
 
@@ -155,8 +159,6 @@ git clone https://github.com/username/webhook-examples.git
 4) Install any required dependencies (e.g., requests for Python, axios for Node.js).
 5) Run the example script to test the webhook request.
 
-
-
 # Programming languages
 
 The repository includes example implementations in the following programming languages:
@@ -175,16 +177,6 @@ The repository includes example implementations in the following programming lan
 | ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)    | Rust    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/rust)
 | ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)    | Swift    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/swift)
 | ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)    | TypeScript    | [View files]( https://github.com/psyll/Webhook-Examples/tree/main/typescript)
-
-
-
-
-
-
-
-
-
-
 
 
 
